@@ -1,0 +1,4 @@
+https://docs.oracle.com/cd/B28359_01/server.111/b28318/datatype.htm#g23242
+http://www.lettercount.com/
+https://docs.oracle.com/cd/E17952_01/mysql-5.1-en/char.html
+https://www.w3schools.com/sql/sql_primarykey.asp
