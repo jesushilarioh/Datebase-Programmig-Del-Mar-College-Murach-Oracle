@@ -9,14 +9,16 @@
 --1. Create movies table. Data types decided.
 CREATE TABLE movies
 (
-  MovieID     NUMBER(6)     NOT NULL      PRIMARY KEY,
-  MovieName   VARCHAR2(30)  NOT NULL,
-  Category    VARCHAR2(10)  NOT NULL,
-  Minutes     NUMBER(3)     NOT NULL,
+  MovieID     INT           NOT NULL AUTO_INCREMENT,
+  MovieName   VARCHAR(225)  NOT NULL,
+  Category    VARCHAR(10)   NOT NULL,
+  Minutes     INT(3)        NOT NULL,
   Year        CHAR(4)       NOT NULL,
-  Main_Actor  VARCHAR2(30)  NOT NULL,
-  Rating      VARCHAR2(4)   NOT NULL
+  Main_Actor  VARCHAR(225)  NOT NULL,
+  Rating      VARCHAR(4)    NOT NULL,
+  PRIMARY KEY (MovieID)
 );
+
 --2. Full movies table with following information.
 INSERT INTO movies
 VALUES
@@ -44,3 +46,7 @@ SELECT * FROM movies ORDER BY year DESC;
 SELECT * FROM movies ORDER BY category, rating;
 
 --7. Show MovieName for movies with Lord in the title.
+SELECT * FROM movies
+WHERE MovieName LIKE '%Lord%';
+
+--8. Change the rating for Lord of the Rings to 5.0.
