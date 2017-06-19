@@ -49,4 +49,20 @@ SELECT * FROM movies ORDER BY category, rating;
 SELECT * FROM movies
 WHERE MovieName LIKE '%Lord%';
 
---8. Change the rating for Lord of the Rings to 5.0.
+--8. Change the rating for Lord of the Rings to 5.0
+UPDATE movies
+SET rating = '5.0'
+WHERE MovieName = 'The Lord of the Rings: The Return of the King';
+
+--9. Change the rating for Pulp Fiction to 9.5
+UPDATE movies
+SET rating = '9.5'
+WHERE MovieName = 'Pulp Fiction';
+
+-- 10. Show the table of contents in order by rating
+SELECT *
+FROM movies
+ORDER BY rating;
+
+--11. Delete the table and its contents
+DROP TABLE movies;
