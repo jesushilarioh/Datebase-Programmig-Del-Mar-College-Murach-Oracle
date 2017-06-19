@@ -22,7 +22,7 @@ VALUES (
           1,
           'The Shawshank Redemption',
           'Drama',
-          142,
+          142,  --Minutes
           '1994',
           'Tim Robbins',
           '9.2'
@@ -33,7 +33,7 @@ VALUES (
           2,
           'The Godfather',
           'Drama',
-          175,
+          175,  --Minutes
           '1972',
           'Marlon Brando',
           '9.2'
@@ -44,7 +44,7 @@ VALUES (
           3,
           'Pulp Fiction' ,
           'Thriller',
-          154,
+          154,  --Minutes
           '1994',
           'John Travolta',
           '8.9'
@@ -55,7 +55,7 @@ VALUES (
           4,
           'Schindler''s List',
           'Drama',
-          195,
+          195,  --Minutes
           '1993',
           'Liam Neeson',
           '8.9'
@@ -66,7 +66,7 @@ VALUES (
           5,
           '12 Angry Men',
           'Drama',
-          96,
+          96, --Minutes
           '1957',
           'Martin Balsam',
           '8.9'
@@ -77,7 +77,7 @@ VALUES (
           6,
           'One Flew Over the Cuckoo''s Nest',
           'Drama',
-          133,
+          133,  --Minutes
           '1975',
           'Jack Nicholson',
           '8.8'
@@ -88,7 +88,7 @@ VALUES (
           7,
           'The Dark Knight',
           'Action',
-          152,
+          152,  --Minutes
           '2008',
           'Christian Bale',
           '8.8'
@@ -99,7 +99,7 @@ VALUES (
           8,
           'The Lord of the Rings: The Return of the King',
           'Action',
-          201,
+          201,  --Minutes
           '2003',
           'Elijah Wood',
           '8.8'
@@ -110,7 +110,7 @@ VALUES (
           9,
           'Star Wars',
           'Action',
-          121,
+          121,  --Minutes
           '1977',
           'Mark Hamill',
           '8.8'
@@ -121,7 +121,7 @@ VALUES (
           10,
           'Casablanca',
           'Drama',
-          102,
+          102,  --Minutes
           '1942',
           'Humphrey Bogart',
           '8.8'
