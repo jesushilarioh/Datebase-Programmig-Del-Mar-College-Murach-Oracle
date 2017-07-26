@@ -29,9 +29,9 @@ SET discount_percent = 35
 WHERE product_id = 11;
 
 --6.
-DELETE FROM Categories
-WHERE Category_id = 1;
 DELETE FROM Products
+WHERE Category_id = 4;
+DELETE FROM Categories
 WHERE Category_id = 4;
 
 --7. 
