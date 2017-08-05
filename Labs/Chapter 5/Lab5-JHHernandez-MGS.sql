@@ -26,7 +26,7 @@ SELECT c.email_address, COUNT(*) AS number_of_orders,
     SUM((oi.item_price - oi.discount_amount) * oi.quantity) AS total_amt
 FROM Customers c 
     JOIN Orders o 
-        ON c.customer_id = o.customer_id
+        ON c.custommer_id = o.customer_id
     JOIN Order_Items oi
         ON o.order_id = oi.order_id
 GROUP BY c.email_address
