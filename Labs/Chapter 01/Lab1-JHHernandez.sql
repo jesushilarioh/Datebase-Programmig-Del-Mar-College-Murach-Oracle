@@ -6,7 +6,7 @@
 -----------------------------
 
 --1
-SELECT MovieName, Main_Actor
+SELECT MovieName, Main_Actor 
 FROM FilmData;
 
 --2
@@ -52,3 +52,4 @@ ORDER BY Minutes;
 SELECT MovieName, Year
 FROM FilmData
 WHERE Year > 1960 AND Year < 1995;
+
